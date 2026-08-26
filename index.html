@@ -904,6 +904,29 @@
     <button onclick="cancelTimer()">✕</button>
   </div>
 
+  <!-- INSTALL BANNER -->
+  <div id="installBanner" class="install-banner hidden">
+    <div class="install-content">
+      <span class="install-icon">📲</span>
+      <div class="install-text">
+        <strong>Instalar Total Fitness</strong>
+        <p id="installHint">Adicione à tela inicial para acesso rápido</p>
+      </div>
+      <div class="install-actions">
+        <button id="installBtn" class="install-btn" onclick="installApp()">Instalar</button>
+        <button class="install-close" onclick="closeInstall()">✕</button>
+      </div>
+    </div>
+    <!-- iOS instructions -->
+    <div id="iosInstructions" class="ios-instructions hidden">
+      <p><strong>No Safari:</strong></p>
+      <p>1. Toque no ícone <strong>↗️ Compartilhar</strong></p>
+      <p>2. Role para baixo e toque em <strong>"Adicionar à Tela de Início"</strong></p>
+      <p>3. Toque em <strong>"Adicionar"</strong></p>
+      <button class="install-btn" onclick="closeInstall()">Entendi</button>
+    </div>
+  </div>
+
   <script src="js/main.js"></script>
 </body>
 </html>
