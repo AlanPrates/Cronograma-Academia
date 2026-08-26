@@ -191,3 +191,5 @@ nav { display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap; }
 }
 
 footer { text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
+footer a:hover { text-decoration: underline; }
