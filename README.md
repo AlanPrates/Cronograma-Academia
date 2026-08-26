@@ -1,352 +1,188 @@
-# 🏋️ Cronograma de Treino Completo com Tutoriais
+# 🏋️ Total Fitness - Cronograma de Treino
 
-> **Divisão ABCDE** — Treinamento de segunda a sexta-feira com vídeos tutoriais e fichas técnicas detalhadas.
+> Ficha de treino completa com vídeos tutoriais, timer de descanso e navegação por abas.
 
 ---
 
-## 👨‍💻 Autor e Desenvolvedor
+## 👨‍💻 Autor
 
 **Alan Prates**  
-Desenvolvedor e criador deste projeto.
+[github.com/AlanPrates](https://github.com/AlanPrates/)
 
 ---
 
-## 📋 Sobre o Projeto
+## 📋 Sobre
 
-Este é um cronograma de treino completo no modelo **ABCDE**, dividido por grupos musculares ao longo da semana. Cada dia conta com:
+Cronograma de treino semanal com **9 grupos musculares** numerados, vídeos do YouTube integrados e timer de descanso flutuante.
 
-- 🎬 Vídeos tutoriais em formato vertical
-- 📝 Fichas técnicas detalhadas
-- ⏱️ Séries, repetições e tempos de descanso
-- 🎯 Foco muscular e dicas de execução
-- 💡 Intensidade recomendada
+### Funcionalidades
+
+- 🎬 **Vídeos tutoriais** — 45+ exercícios com links para YouTube
+- ⏱️ **Timer de descanso** — Pill flutuante com 60s ou 1min30
+- 📱 **PWA** — Ícone na tela inicial (Android e iOS)
+- 🌙 **Tema escuro** — Design moderno com acento laranja
+- 🗂️ **Navegação por abas** — Home + 5 dias da semana
+- 📄 **Ficha completa** — Aba Início com resumo de todos os 9 grupos
 
 ---
 
 ## 📅 Divisão Semanal
 
-| Dia | Grupo Muscular | Equipamentos |
-|-----|----------------|--------------|
-| **Segunda** | Peito e Panturrilhas | Halteres, Barra e Máquinas |
-| **Terça** | Costas e Abdômen | Cabos, Polias e Peso Corporal |
-| **Quarta** | Pernas Completas | Barra Livre, Leg Press e Extensora |
-| **Quinta** | Ombros e Trapézio | Halteres, Polia e Anilhas |
-| **Sexta** | Bíceps e Tríceps | Personal Homem e Equipamentos Variados |
-| **Sábado** | Descanso | Recuperação Muscular |
-| **Domingo** | Descanso | Recuperação Muscular |
+| Dia | Grupos Musculares | Nº |
+|-----|-------------------|-----|
+| **Segunda** | Peitoral + Bíceps + Costa + Tríceps | 1, 2, 3, 4 |
+| **Terça** | Quadríceps + Ombro + Panturrilha | 6, 5, 9 |
+| **Quarta** | Peitoral + Costa + Bíceps + Tríceps | 1, 3, 2, 4 |
+| **Quinta** | Posterior + Ombro + Panturrilha | 7, 5, 9 |
+| **Sexta** | Peitoral + Costa + Bíceps + Tríceps | 1, 3, 2, 4 |
+| **Sábado** | Descanso | — |
+
+### Regras Gerais
+
+- **Aeróbico:** 20 minutos todos os dias
+- **Descanso entre séries:** 1min ou 1min30
+- **Abdome:** Todos os dias (6 exercícios)
 
 ---
 
-## 🏋️ FICHA DE TREINO COMPLETA
+## 🏋️ Ficha de Treino
 
-### SEGUNDA-FEIRA: PEITO E PANTURRILHAS
+### Nº 1 — Peitoral
 
-#### 1. Supino Inclinado (Barra)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 8-12 | 90s | Peitoral Superior |
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Supino Inclinado Halteres | 4 x 12 | Peitoral |
+| 2 | Crucifixo Máquina | 3 x 15 | Peitoral |
+| 3 | Crossover Polia | 3 x 12 | Peitoral |
+| 4 | Supino Máquina | 4 x 12 | Peitoral |
 
-- **Execução:** Pegada largura dos ombros, descida controlada.
-- **Intensidade:** RPE 8-9.
+### Nº 2 — Bíceps
 
----
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Rosca Direta Barra W | 3 x 12 | Bíceps |
+| 2 | Rosca Alternada Halter | 3 x 12 | Bíceps |
+| 3 | Rosca Martelo | 3 x 15 | Bíceps |
+| 4 | Rosca Concentrada | 3 x 12 | Bíceps |
 
-#### 2. Supino Reto (Halteres)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 8-12 | 90s | Peitoral Maior (Geral) |
+### Nº 3 — Costa
 
-- **Execução:** Amplitude máxima embaixo, cotovelos levemente fechados.
-- **Intensidade:** Carga progressiva.
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Puxada Frontal | 3 x 15 | Costa |
+| 2 | Remada Sentada | 3 x 15 | Costa |
+| 3 | Remada Articulada | 3 x 15 | Costa |
+| 4 | Remada Cavalo | 3 x 12 | Costa |
 
----
+### Nº 4 — Tríceps
 
-#### 3. Crucifixo / Voador (Máquina)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 12-15 | 60s | Isolamento do Peitoral |
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Tríceps Testa | 3 x 15 | Tríceps |
+| 2 | Tríceps Polia | 3 x 15 | Tríceps |
+| 3 | Tríceps Francês | 3 x 15 | Tríceps |
+| 4 | Tríceps Coice | 3 x 12 | Tríceps |
 
-- **Execução:** Contração forte de 1s no centro.
-- **Intensidade:** Alto volume e pico de contração.
+### Nº 5 — Ombro
 
----
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Elevação Frontal | 3 x 12 | Ombro |
+| 2 | Elevação Lateral | 3 x 15 | Ombro |
+| 3 | Elevação Posterior | 3 x 15 | Ombro |
+| 4 | Desenvolvimento | 3 x 12 | Ombro |
 
-#### 4. Supino Declinado (Cross/Máquina)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 10-12 | 60s | Porção Inferior do Peito |
+### Nº 6 — Quadríceps
 
-- **Execução:** Empurrar para frente e para baixo.
-- **Intensidade:** Movimento controlado na excêntrica.
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Agachação | 3 x 12 | Quadríceps |
+| 2 | Cadeira Extensora | 3 x 15 | Quadríceps |
+| 3 | Leg Press 45 | 3 x 15 | Quadríceps |
+| 4 | Cadeira Adutora | 3 x 15 | Quadríceps |
 
----
+### Nº 7 — Posterior
 
-#### 5. Panturrilha Sentado (Máquina)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 15-20 | 45s | Músculo Sóleo |
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Mesa Flexora | 3 x 15 | Posterior |
+| 2 | Cadeira Abdutora | 3 x 15 | Posterior |
+| 3 | Stiff | 3 x 12 | Posterior |
+| 4 | Flexora em Pé | 3 x 12 | Posterior |
+| 5 | Flexora Deitada | 3 x 12 | Posterior |
 
-- **Execução:** Alongamento completo embaixo, pausa de 1s em cima.
-- **Intensidade:** Altas repetições até a queimação.
+### Nº 8 — Peito + Costa (Quarta/Sexta)
 
----
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Supino Reto Halteres | 4 x 12 | Peitoral |
+| 2 | Supino Inclinado Barra | 4 x 12 | Peitoral |
+| 3 | Puxada Frontal Polia | 3 x 15 | Costa |
+| 4 | Remada Curvada Barra | 3 x 15 | Costa |
 
-### TERÇA-FEIRA: COSTAS E ABDÔMEN
+### Nº 9 — Panturrilha
 
-#### 1. Puxada Frontal (Polia Alta)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 10-12 | 90s | Grande Latíssimo do Dorso (Largura) |
+| # | Exercício | Séries | Grupo |
+|---|-----------|--------|-------|
+| 1 | Panturrilha Sentada | 3 x 20 | Panturrilha |
+| 2 | Panturrilha em Pé | 3 x 15 | Panturrilha |
 
-- **Execução:** Puxar em direção ao peito estufado.
-- **Intensidade:** Manter o tronco firme.
+### Abdome (Todos os Dias)
 
----
-
-#### 2. Remada Serrote (Halter)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 10-12 | 60s | Espessura das Costas |
-
-- **Execução:** Halter rente ao quadril, tronco firme.
-- **Intensidade:** Carga moderada/alta.
-
----
-
-#### 3. Remada Baixa (Triângulo)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 10-12 | 60s | Centro das Costas (Rombóides) |
-
-- **Execução:** Esticar braços na volta, fechar escápulas.
-- **Intensidade:** Ritmo constante.
-
----
-
-#### 4. Pulldown com Barra Reta
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 12-15 | 60s | Isolamento de Dorsais |
-
-- **Execução:** Braços quase estendidos em arco até a coxa.
-- **Intensidade:** Pico de contração intenso.
-
----
-
-#### 5. Abdominal Supra (Solo)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 15-20 | 45s | Reto Abdominal |
-
-- **Execução:** Elevação apenas dos ombros do solo.
-- **Intensidade:** Controle total na descida.
+| # | Exercício | Séries |
+|---|-----------|--------|
+| 1 | Abdominal Infra | 3 x 20 |
+| 2 | Abdominal Supra | 3 x 20 |
+| 3 | Prancha Frontal | 3 x 45s |
+| 4 | Prancha Lateral | 3 x 30s/lado |
+| 5 | Elevação de Pernas | 3 x 15 |
+| 6 | Prancha com Toque | 3 x 12 |
 
 ---
 
-### QUARTA-FEIRA: PERNAS COMPLETAS
+## 🛠️ Tecnologias
 
-#### 1. Agachamento Livre (Barra)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 8-10 | 120s | Quadríceps, Glúteos e Core |
-
-- **Execução:** Tronco ereto, descida profunda controlada.
-- **Intensidade:** Carga alta e segura.
+- **HTML5** — Estrutura SPA com abas
+- **CSS3** — Tema escuro, grid responsivo, animações
+- **JavaScript** — Navegação, timer, modal de vídeos
+- **PWA** — Manifest, favicons, ícone na tela inicial
+- **Google Fonts** — Poppins
 
 ---
 
-#### 2. Leg Press 45º (Máquina)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 10-12 | 90s | Coxas e Glúteos |
-
-- **Execução:** Pés na largura dos ombros, lombar apoiada.
-- **Intensidade:** Carga progressiva.
-
----
-
-#### 3. Cadeira Extensora
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 12-15 | 60s | Quadríceps (Isolamento) |
-
-- **Execução:** Extensão completa com pico de 1s em cima.
-- **Intensidade:** Queimação máxima.
-
----
-
-#### 4. Mesa Flexora
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 10-12 | 60s | Posteriores de Coxa |
-
-- **Execução:** Quadril colado no banco, sem embalo.
-- **Intensidade:** Movimento controlado.
-
----
-
-#### 5. Afundo com Halteres
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 10 (cada) | 60s | Unilateral / Glúteos e Quadríceps |
-
-- **Execução:** Joelho de trás quase tocando o solo.
-- **Intensidade:** Foco no equilíbrio.
-
----
-
-### QUINTA-FEIRA: OMBROS E TRAPÉZIO
-
-#### 1. Desenvolvimento com Halteres
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 8-12 | 90s | Deltoides (Geral) |
-
-- **Execução:** Descer até a orelha, subir sem bater os halteres.
-- **Intensidade:** Carga progressiva.
-
----
-
-#### 2. Elevação Lateral (Halteres)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 12-15 | 60s | Deltoide Lateral |
-
-- **Execução:** Leve flexão no cotovelo, até a linha dos ombros.
-- **Intensidade:** Execução estrita.
-
----
-
-#### 3. Elevação Frontal com Anilha
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 12-15 | 60s | Deltoide Anterior |
-
-- **Execução:** Elevar anilha até a altura dos olhos.
-- **Intensidade:** Controle excêntrico.
-
----
-
-#### 4. Encolhimento com Halteres
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 12-15 | 60s | Trapézio |
-
-- **Execução:** Elevação vertical dos ombros, pausa de 1s no topo.
-- **Intensidade:** Carga alta.
-
----
-
-### SEXTA-FEIRA: BÍCEPS E TRÍCEPS
-
-#### 1. Tríceps na Polia (Personal Homem)
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 10-12 | 60s | Tríceps (Geral) |
-
-- **Execução:** Cotovelos colados ao lado do corpo.
-- **Intensidade:** Pico de contração.
-
----
-
-#### 2. Rosca Direta com Barra W
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 4 x 10-12 | 60s | Bíceps Braquial |
-
-- **Execução:** Sem balanço, cotovelos fixos.
-- **Intensidade:** Carga moderada/alta.
-
----
-
-#### 3. Rosca Alternada com Halteres
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 12-15 | 60s | Bíceps e Braquiorradial |
-
-- **Execução:** Supinação do punho ao subir.
-- **Intensidade:** Execução controlada.
-
----
-
-#### 4. Tríceps Testa com Halteres
-| Séries | Descanso | Foco |
-|--------|----------|------|
-| 3 x 10-12 | 60s | Cabeça Longa do Tríceps |
-
-- **Execução:** Descida dos halteres ao lado da orelha.
-- **Intensidade:** Alongamento máximo.
-
----
-
-## 📊 Resumo do Volume Semanal
-
-| Dia | Exercícios | Séries Totais | Exercícios |
-|-----|------------|---------------|------------|
-| Segunda | Peito + Panturrilha | 18 séries | 5 exercícios |
-| Terça | Costas + Abdômen | 18 séries | 5 exercícios |
-| Quarta | Pernas | 18 séries | 5 exercícios |
-| Quinta | Ombros + Trapézio | 15 séries | 4 exercícios |
-| Sexta | Bíceps + Tríceps | 14 séries | 4 exercícios |
-| **Total** | **Todos os grupos** | **83 séries** | **23 exercícios** |
-
----
-
-## 🎯 Dicas de Treino
-
-1. **Aquecimento:** Sempre faça 5-10 minutos de aquecimento antes de treinar
-2. **Progressão:** Aumente a carga gradualmente quando conseguir completar todas as repetições
-3. **Descanso:** Respeite os tempos de descanso indicados
-4. **Hidratação:** Beba água durante todo o treino
-5. **Sono:** Durma pelo menos 7-8 horas para recuperação adequada
-6. **Nutrição:** Mantenha uma alimentação equilibrada e rica em proteínas
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5** — Estrutura das páginas
-- **CSS3** — Estilização e design responsivo
-- **JavaScript** — Interatividade e navegação
-- **Google Fonts** — Tipografia (Poppins)
-
----
-
-## 📁 Estrutura do Projeto
+## 📁 Estrutura
 
 ```
-Cronograma-de-Treino-Completo-com-Tutoriais/
-├── index.html              # Página principal com ficha completa
-├── README.md               # Documentação do projeto
+Cronograma-Academia/
+├── index.html          # SPA com todas as abas
+├── manifest.json       # PWA manifest
+├── favicon.svg         # Ícone vetorial
+├── favicon-*.png       # Ícones 72px a 512px
 ├── css/
-│   └── style.css          # Estilos globais
+│   └── style.css       # Estilos globais
 ├── js/
-│   └── main.js            # Scripts globais
-└── pages/
-    ├── segunda/
-    │   └── index.html     # Treino de segunda (Peito)
-    ├── terca/
-    │   └── index.html     # Treino de terça (Costas)
-    ├── quarta/
-    │   └── index.html     # Treino de quarta (Pernas)
-    ├── quinta/
-    │   └── index.html     # Treino de quinta (Ombros)
-    └── sexta/
-        └── index.html     # Treino de sexta (Braços)
+│   └── main.js         # Timer, navegação, modal
+└── pages/              # Versão legada (não utilizada)
 ```
+
+---
+
+## 🚀 Como Usar
+
+1. Acesse o site no navegador
+2. Use as abas para navegar entre os dias da semana
+3. Clique em **📺 Tutorial** para assistir ao vídeo do exercício
+4. Clique em **⏱️ Descanso** para iniciar o timer
+5. No celular, adicione à tela inicial para acesso rápido
 
 ---
 
 ## 📝 Licença
 
-Este projeto foi criado e desenvolvido por **Alan Prates**.
+Projeto criado e mantido por **Alan Prates**.
 
 ---
 
-## 📞 Contato
-
-Desenvolvido com ❤️ por **Alan Prates**
-
----
+Desenvolvido com ❤️ por [Alan Prates](https://github.com/AlanPrates/)
 
 *Última atualização: Agosto 2026*
