@@ -900,6 +900,16 @@
     </div>
   </div>
 
+  <!-- MODAL DE ALERTA -->
+  <div id="alertModal" class="modal alert-modal" onclick="closeAlert(event)">
+    <div class="alert-box">
+      <div class="alert-icon">⏱️</div>
+      <h3 id="alertTitle">Tempo esgotado!</h3>
+      <p id="alertMessage">Hora da próxima série.</p>
+      <button class="alert-btn" onclick="closeAlert()">✓ Entendi</button>
+    </div>
+  </div>
+
   <!-- FLOATING TIMER -->
   <div id="timerContainer" class="timer-container hidden">
     <span>Descanso: <strong id="timerDisplay">00:00</strong></span>

@@ -1,6 +1,13 @@
 let timerInterval = null;
 let deferredPrompt = null;
 
+// Registrar Service Worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js');
+  });
+}
+
 // Detectar plataforma
 function isIOS() {
   return /iPad|iPhone|iPod/.test(navigator.userAgent) || 
@@ -126,7 +133,7 @@ function startTimer(seconds) {
 
     if (remaining <= 0) {
       clearInterval(timerInterval);
-      alert('⏱️ Tempo de descanso finalizado! Hora da próxima série.');
+      showAlert('Tempo esgotado!', 'Hora da próxima série.');
       container.classList.add('hidden');
     }
   }, 1000);
@@ -142,4 +149,16 @@ function updateTimerDisplay(sec) {
 function cancelTimer() {
   clearInterval(timerInterval);
   document.getElementById('timerContainer').classList.add('hidden');
+}
+
+function showAlert(title, message) {
+  document.getElementById('alertTitle').textContent = title;
+  document.getElementById('alertMessage').textContent = message;
+  document.getElementById('alertModal').style.display = 'flex';
+}
+
+function closeAlert(event) {
+  if (!event || event.target.id === 'alertModal' || event.target.classList.contains('alert-btn')) {
+    document.getElementById('alertModal').style.display = 'none';
+  }
 }
