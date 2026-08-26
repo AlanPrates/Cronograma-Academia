@@ -75,12 +75,14 @@ window.addEventListener('appinstalled', () => {
   deferredPrompt = null;
 });
 
-// iOS — mostrar após 3s se não foi dispensado
-window.addEventListener('load', () => {
-  if (isIOS() && !isStandalone() && !localStorage.getItem('installDismissed')) {
-    setTimeout(showInstallBanner, 3000);
-  }
-});
+// iOS — mostrar banner imediatamente
+if (isIOS() && !isStandalone()) {
+  document.addEventListener('DOMContentLoaded', () => {
+    if (!localStorage.getItem('installDismissed')) {
+      setTimeout(showInstallBanner, 1500);
+    }
+  });
+}
 
 function switchTab(tabId, element) {
   const contents = document.querySelectorAll('.tab-content');

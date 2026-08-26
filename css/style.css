@@ -282,12 +282,41 @@ footer a:hover { text-decoration: underline; }
   text-align: center;
 }
 
-.ios-instructions p {
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  margin: 0.3rem 0;
+.ios-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
-.ios-instructions strong { color: var(--accent); }
+.ios-step {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(245, 158, 11, 0.1);
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+}
+
+.ios-step-icon { font-size: 1.2rem; }
+
+.ios-step p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0;
+  text-align: left;
+}
+
+.ios-step strong { color: var(--accent); }
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.ios-step:first-child .ios-step-icon {
+  animation: pulse 1.5s infinite;
+  color: var(--accent);
+}
 footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 footer a:hover { text-decoration: underline; }

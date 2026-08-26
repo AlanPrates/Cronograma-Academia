@@ -20,6 +20,8 @@
   <link rel="icon" type="image/png" sizes="384x384" href="img/favicon-384.png">
   <link rel="icon" type="image/png" sizes="512x512" href="img/favicon-512.png">
   <link rel="apple-touch-icon" href="img/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-128.png">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -919,11 +921,21 @@
     </div>
     <!-- iOS instructions -->
     <div id="iosInstructions" class="ios-instructions hidden">
-      <p><strong>No Safari:</strong></p>
-      <p>1. Toque no ícone <strong>↗️ Compartilhar</strong></p>
-      <p>2. Role para baixo e toque em <strong>"Adicionar à Tela de Início"</strong></p>
-      <p>3. Toque em <strong>"Adicionar"</strong></p>
-      <button class="install-btn" onclick="closeInstall()">Entendi</button>
+      <div class="ios-steps">
+        <div class="ios-step">
+          <span class="ios-step-icon">1️⃣</span>
+          <p>Toque no ícone <strong>↗️</strong> (compartilhar) na barra inferior</p>
+        </div>
+        <div class="ios-step">
+          <span class="ios-step-icon">2️⃣</span>
+          <p>Toque em <strong>"Adicionar à Tela de Início"</strong></p>
+        </div>
+        <div class="ios-step">
+          <span class="ios-step-icon">3️⃣</span>
+          <p>Toque em <strong>"Adicionar"</strong> no canto superior</p>
+        </div>
+      </div>
+      <button class="install-btn" onclick="closeInstall()">✅ Entendi</button>
     </div>
   </div>
 
